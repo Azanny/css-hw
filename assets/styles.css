@@ -14,6 +14,7 @@ main{
 }
 
 form{
+	position:relative;
 	width:400px;
 	height:600px;
 	margin:0 auto;
@@ -47,9 +48,9 @@ form{
 	
 }
 #svg8{
-	position:relative;
-	top:-24%;
-	left:90%;
+	position:absolute;
+	top:2%;
+	left:92%;
 	width:24px;
 	height:24px;
 	cursor:pointer;
@@ -57,7 +58,7 @@ form{
 
 #formbod{
 	width:280px;
-	margin:-70px auto 0;
+	margin:-40px auto 0;
 }
 
 p{
